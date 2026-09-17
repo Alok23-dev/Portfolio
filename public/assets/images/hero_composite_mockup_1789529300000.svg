@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+  <rect width="100%" height="100%" fill="#0A0A0C"/>
+  <g transform="translate(60,60)">
+    <text x="0" y="40" fill="#E63946" font-family="Syne, sans-serif" font-size="30">ALOK PANDEY — GRAPHIC DESIGNER</text>
+    <!-- Small panels representing each discipline -->
+    <g transform="translate(0,80)">
+      <!-- Branding panel -->
+      <rect x="0" y="0" width="520" height="420" rx="12" fill="#0F0F11" stroke="#222"/>
+      <text x="28" y="46" fill="#E63946" font-family="Syne, sans-serif" font-size="20">Branding</text>
+
+      <!-- Thumbnails panel -->
+      <rect x="560" y="0" width="360" height="420" rx="12" fill="#0F0F11" stroke="#222"/>
+      <text x="588" y="46" fill="#E63946" font-family="Syne, sans-serif" font-size="20">Thumbnails</text>
+
+      <!-- Social panel -->
+      <rect x="940" y="0" width="420" height="200" rx="12" fill="#0F0F11" stroke="#222"/>
+      <text x="968" y="46" fill="#E63946" font-family="Syne, sans-serif" font-size="20">Social Campaigns</text>
+
+      <!-- Posters panel -->
+      <rect x="940" y="240" width="420" height="180" rx="12" fill="#0F0F11" stroke="#222"/>
+      <text x="968" y="286" fill="#E63946" font-family="Syne, sans-serif" font-size="20">Posters</text>
+
+      <!-- Marketing panel -->
+      <rect x="1320" y="0" width="360" height="420" rx="12" fill="#0F0F11" stroke="#222"/>
+      <text x="1348" y="46" fill="#E63946" font-family="Syne, sans-serif" font-size="20">Marketing</text>
+    </g>
+  </g>
+</svg>

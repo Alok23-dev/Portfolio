@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%" style="background:#0a0a0c;">
+  <defs>
+    <linearGradient id="obsidian" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181f"/>
+      <stop offset="50%" stop-color="#0e0e12"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="crimsonFoil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1e38"/>
+      <stop offset="50%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#900c19"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="25" stdDeviation="30" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#obsidian)"/>
+  
+  <!-- Subtle Tactile Surface Texture Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <path d="M0,100 H1600 M0,200 H1600 M0,300 H1600 M0,400 H1600 M0,500 H1600 M0,600 H1600 M0,700 H1600 M0,800 H1600"/>
+    <path d="M200,0 V900 M400,0 V900 M600,0 V900 M800,0 V900 M1000,0 V900 M1200,0 V900 M1400,0 V900"/>
+  </g>
+
+  <!-- Luxury Packaging Box Mockup (Left) -->
+  <g transform="translate(140, 160)" filter="url(#cardShadow)">
+    <rect width="520" height="580" rx="20" fill="#121218" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2"/>
+    <rect x="20" y="20" width="480" height="540" rx="14" fill="#16161e"/>
+    
+    <!-- Large Monogram Foil Logo -->
+    <path d="M180,220 L240,220 L300,340 L300,220 L340,220 L340,380 L280,380 L220,260 L220,380 L180,380 Z" fill="url(#crimsonFoil)"/>
+    <text x="260" y="440" font-family="'Syne', 'Helvetica Neue', sans-serif" font-weight="800" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="6">NEXUS AUDIO</text>
+    <text x="260" y="480" font-family="monospace" font-size="12" fill="#e63946" text-anchor="middle" letter-spacing="4">LUXURY ACOUSTIC PACKAGING</text>
+  </g>
+
+  <!-- Foil Stamping Business Cards Stack (Center Right) -->
+  <g transform="translate(740, 180) rotate(-6)" filter="url(#cardShadow)">
+    <rect width="680" height="380" rx="16" fill="#121218" stroke="#e63946" stroke-opacity="0.4" stroke-width="2"/>
+    <rect x="15" y="15" width="650" height="350" rx="12" fill="#0d0d12"/>
+    
+    <path d="M80,100 L120,100 L160,180 L160,100 L190,100 L190,220 L150,220 L110,140 L110,220 L80,220 Z" fill="url(#crimsonFoil)"/>
+    <text x="210" y="145" font-family="'Syne', sans-serif" font-weight="800" font-size="32" fill="#ffffff" letter-spacing="4">NEXUS AUDIO</text>
+    <text x="210" y="180" font-family="monospace" font-size="13" fill="#9e9ea7" letter-spacing="2">HIGH-FIDELITY SOUND SYSTEMS</text>
+
+    <line x1="80" y1="260" x2="600" y2="260" stroke="#ffffff" stroke-opacity="0.1"/>
+    
+    <text x="80" y="300" font-family="'Syne', sans-serif" font-weight="700" font-size="18" fill="#ffffff">ALOK PANDEY</text>
+    <text x="80" y="325" font-family="monospace" font-size="12" fill="#e63946">LEAD VISUAL ARCHITECT</text>
+    
+    <text x="600" y="300" font-family="monospace" font-size="12" fill="#9e9ea7" text-anchor="end">NEXUSAUDIO.COM</text>
+    <text x="600" y="325" font-family="monospace" font-size="12" fill="#9e9ea7" text-anchor="end">+91 81728 55008</text>
+  </g>
+
+  <!-- Overlapping Front Business Card -->
+  <g transform="translate(840, 420) rotate(4)" filter="url(#cardShadow)">
+    <rect width="640" height="360" rx="16" fill="#181822" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"/>
+    <rect x="15" y="15" width="610" height="330" rx="12" fill="#12121a"/>
+    
+    <circle cx="320" cy="150" r="60" fill="#000000" stroke="url(#crimsonFoil)" stroke-width="4"/>
+    <path d="M300,120 L320,120 L340,160 L340,120 L355,120 L355,180 L335,180 L315,140 L315,180 L300,180 Z" fill="url(#crimsonFoil)"/>
+    
+    <text x="320" y="250" font-family="'Syne', sans-serif" font-weight="800" font-size="26" fill="#ffffff" text-anchor="middle" letter-spacing="4">BRAND IDENTITY GUIDELINES</text>
+    <text x="320" y="285" font-family="monospace" font-size="12" fill="#e63946" text-anchor="middle" letter-spacing="3">MINIMALIST BLACK &amp; CRIMSON FOIL SYSTEM</text>
+  </g>
+</svg>

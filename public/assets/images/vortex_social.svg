@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%" style="background:#0a0a0c;">
+  <defs>
+    <linearGradient id="vortexRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff1e38"/>
+      <stop offset="100%" stop-color="#800f2f"/>
+    </linearGradient>
+    <filter id="phoneShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000000" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#09090c"/>
+
+  <!-- Tactical HUD Grid Lines -->
+  <g stroke="#e63946" stroke-opacity="0.1" stroke-width="1">
+    <path d="M0,150 H1600 M0,300 H1600 M0,450 H1600 M0,600 H1600 M0,750 H1600"/>
+    <path d="M200,0 V900 M400,0 V900 M600,0 V900 M800,0 V900 M1000,0 V900 M1200,0 V900 M1400,0 V900"/>
+  </g>
+
+  <!-- Title Banner -->
+  <text x="80" y="90" font-family="'Syne', sans-serif" font-weight="900" font-size="36" fill="#ffffff" letter-spacing="-1">VORTEX LABS — TECHWEAR CAROUSEL SYSTEM</text>
+  <text x="80" y="125" font-family="monospace" font-size="14" fill="#e63946" letter-spacing="3">// 4-SLIDE MULTI-FRAME INSTAGRAM CAMPAIGN FOR SMARTPHONES</text>
+
+  <!-- Slide 01 Frame -->
+  <g transform="translate(80, 170)" filter="url(#phoneShadow)">
+    <rect width="320" height="640" rx="32" fill="#121218" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3"/>
+    <rect x="15" y="15" width="290" height="610" rx="24" fill="#0d0d12"/>
+    
+    <rect x="35" y="45" width="55" height="28" rx="6" fill="#e63946"/>
+    <text x="62" y="64" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">01</text>
+
+    <text x="35" y="120" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#ffffff">SYSTEM</text>
+    <text x="35" y="150" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#e63946">INITIALIZED</text>
+    
+    <!-- Tactical Apparel Card -->
+    <rect x="35" y="180" width="250" height="300" rx="16" fill="#181822" stroke="#e63946" stroke-opacity="0.3"/>
+    <path d="M60,220 L260,220 L260,420 L60,420 Z" fill="#000000" opacity="0.4"/>
+    <circle cx="160" cy="320" r="70" fill="url(#vortexRed)" opacity="0.8"/>
+    <text x="160" y="328" font-family="'Syne', sans-serif" font-weight="800" font-size="16" fill="#ffffff" text-anchor="middle">STORM JACKET</text>
+
+    <text x="35" y="520" font-family="monospace" font-size="12" fill="#ffffff">TACTICAL APPAREL DROP</text>
+    <rect x="35" y="540" width="250" height="40" rx="20" fill="#e63946"/>
+    <text x="160" y="565" font-family="'Syne', sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle">SHOP NOW</text>
+  </g>
+
+  <!-- Slide 02 Frame -->
+  <g transform="translate(440, 170)" filter="url(#phoneShadow)">
+    <rect width="320" height="640" rx="32" fill="#121218" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3"/>
+    <rect x="15" y="15" width="290" height="610" rx="24" fill="#0d0d12"/>
+    
+    <rect x="35" y="45" width="55" height="28" rx="6" fill="#e63946"/>
+    <text x="62" y="64" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">02</text>
+
+    <text x="35" y="120" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#ffffff">DEPLOYMENT</text>
+    <text x="35" y="150" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#e63946">PHASE</text>
+
+    <rect x="35" y="180" width="250" height="300" rx="16" fill="#181822" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="55" y="200" width="210" height="120" rx="12" fill="#e63946" opacity="0.2"/>
+    <text x="160" y="265" font-family="'Syne', sans-serif" font-weight="800" font-size="16" fill="#ffffff" text-anchor="middle">CARGO PANTS</text>
+
+    <rect x="55" y="340" width="210" height="120" rx="12" fill="#e63946" opacity="0.2"/>
+    <text x="160" y="405" font-family="'Syne', sans-serif" font-weight="800" font-size="16" fill="#ffffff" text-anchor="middle">UTILITY VEST</text>
+
+    <text x="35" y="520" font-family="monospace" font-size="12" fill="#ffffff">NEW ARSENAL AVAILABLE</text>
+    <rect x="35" y="540" width="250" height="40" rx="20" fill="#ffffff"/>
+    <text x="160" y="565" font-family="'Syne', sans-serif" font-weight="800" font-size="14" fill="#000000" text-anchor="middle">EXPLORE GEAR</text>
+  </g>
+
+  <!-- Slide 03 Frame -->
+  <g transform="translate(800, 170)" filter="url(#phoneShadow)">
+    <rect width="320" height="640" rx="32" fill="#121218" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3"/>
+    <rect x="15" y="15" width="290" height="610" rx="24" fill="#0d0d12"/>
+    
+    <rect x="35" y="45" width="55" height="28" rx="6" fill="#e63946"/>
+    <text x="62" y="64" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">03</text>
+
+    <text x="35" y="120" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#ffffff">STRATEGIC</text>
+    <text x="35" y="150" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#e63946">ADVANTAGE</text>
+
+    <rect x="35" y="180" width="250" height="300" rx="16" fill="#181822"/>
+    <circle cx="160" cy="330" r="90" fill="url(#vortexRed)" opacity="0.3"/>
+    <text x="160" y="325" font-family="'Syne', sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle">WATERPROOF</text>
+    <text x="160" y="355" font-family="'Syne', sans-serif" font-weight="900" font-size="22" fill="#e63946" text-anchor="middle">MEMBRANE</text>
+
+    <text x="35" y="520" font-family="monospace" font-size="12" fill="#ffffff">LIMITED EDITIONS</text>
+    <rect x="35" y="540" width="250" height="40" rx="20" fill="#e63946"/>
+    <text x="160" y="565" font-family="'Syne', sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle">VIEW SPECS</text>
+  </g>
+
+  <!-- Slide 04 Frame -->
+  <g transform="translate(1160, 170)" filter="url(#phoneShadow)">
+    <rect width="320" height="640" rx="32" fill="#121218" stroke="#e63946" stroke-opacity="0.5" stroke-width="3"/>
+    <rect x="15" y="15" width="290" height="610" rx="24" fill="#0d0d12"/>
+    
+    <rect x="35" y="45" width="55" height="28" rx="6" fill="#e63946"/>
+    <text x="62" y="64" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">04</text>
+
+    <text x="35" y="120" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#ffffff">FULL</text>
+    <text x="35" y="150" font-family="'Syne', sans-serif" font-weight="900" font-size="28" fill="#e63946">MOBILITY</text>
+
+    <rect x="35" y="180" width="250" height="300" rx="16" fill="url(#vortexRed)"/>
+    <text x="160" y="325" font-family="'Syne', sans-serif" font-weight="900" font-size="26" fill="#ffffff" text-anchor="middle">JOIN VORTEX</text>
+    <text x="160" y="355" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="middle">VORTEXLABS.CO</text>
+
+    <text x="35" y="520" font-family="monospace" font-size="12" fill="#ffffff">FINAL CALL</text>
+    <rect x="35" y="540" width="250" height="40" rx="20" fill="#ffffff"/>
+    <text x="160" y="565" font-family="'Syne', sans-serif" font-weight="800" font-size="14" fill="#000000" text-anchor="middle">GET ACCESS</text>
+  </g>
+</svg>

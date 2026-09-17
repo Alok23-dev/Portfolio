@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="100%" height="100%" fill="#0A0A0C"/>
+  <g transform="translate(80,80)">
+    <text x="0" y="40" fill="#E63946" font-family="Syne, sans-serif" font-size="28">VORTEX LABS</text>
+    <!-- Instagram grid 3x2 -->
+    <g transform="translate(0,80)">
+      <g fill="#0F0F11">
+        <rect x="0" y="0" width="420" height="420" rx="12" stroke="#222"/>
+        <rect x="460" y="0" width="420" height="420" rx="12" stroke="#222"/>
+        <rect x="920" y="0" width="420" height="420" rx="12" stroke="#222"/>
+        <rect x="0" y="460" width="420" height="420" rx="12" stroke="#222"/>
+        <rect x="460" y="460" width="420" height="420" rx="12" stroke="#222"/>
+        <rect x="920" y="460" width="420" height="420" rx="12" stroke="#222"/>
+      </g>
+      <!-- Stylized product overlays -->
+      <g font-family="JetBrains Mono, monospace" font-size="18" fill="#E63946">
+        <text x="32" y="86">URBAN</text>
+        <text x="492" y="86">TAC</text>
+        <text x="952" y="86">DROP</text>
+        <text x="32" y="546">01</text>
+        <text x="492" y="546">02</text>
+        <text x="952" y="546">03</text>
+      </g>
+      <!-- Neon rim highlights -->
+      <g stroke="#E63946" stroke-opacity="0.14" stroke-width="6">
+        <rect x="0" y="0" width="420" height="420" rx="12" fill="none"/>
+        <rect x="460" y="0" width="420" height="420" rx="12" fill="none"/>
+        <rect x="920" y="0" width="420" height="420" rx="12" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

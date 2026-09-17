@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="100%" height="100%" fill="#0A0A0C"/>
+  <text x="40" y="60" fill="#00F0FF" font-family="Syne, sans-serif" font-size="28">AI WORKFLOW</text>
+  <g transform="translate(120,120)">
+    <!-- 6-step flow left to right -->
+    <g fill="#0D0D0F" stroke="#111" stroke-width="1">
+      <rect x="0" y="40" width="160" height="100" rx="8" fill="#081018"/>
+      <rect x="220" y="40" width="160" height="100" rx="8" fill="#081018"/>
+      <rect x="440" y="40" width="160" height="100" rx="8" fill="#081018"/>
+      <rect x="660" y="40" width="160" height="100" rx="8" fill="#081018"/>
+      <rect x="880" y="40" width="160" height="100" rx="8" fill="#081018"/>
+      <rect x="1100" y="40" width="160" height="100" rx="8" fill="#081018"/>
+    </g>
+
+    <!-- Arrows -->
+    <g stroke="#00F0FF" stroke-width="3" fill="none">
+      <path d="M180 90 L220 90"/>
+      <path d="M400 90 L440 90"/>
+      <path d="M620 90 L660 90"/>
+      <path d="M840 90 L880 90"/>
+      <path d="M1060 90 L1100 90"/>
+    </g>
+
+    <!-- Labels -->
+    <g fill="#E2E2E8" font-family="JetBrains Mono, monospace" font-size="14">
+      <text x="18" y="115">DATA</text>
+      <text x="236" y="115">PROCESS</text>
+      <text x="456" y="115">MODEL</text>
+      <text x="676" y="115">ANALYSIS</text>
+      <text x="896" y="115">EVAL</text>
+      <text x="1116" y="115">OUTPUT</text>
+    </g>
+  </g>
+</svg>
