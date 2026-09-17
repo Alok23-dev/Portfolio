@@ -1,12 +1,35 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { X, CheckCircle2, ArrowRight, Layers, Tag, ExternalLink } from 'lucide-react';
 import { fallbackImage } from '../data/portfolioData';
 
 export default function ProjectModal({ project, onClose }) {
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') onClose();
+    };
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [onClose]);
+
   if (!project) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 lg:p-8 bg-black/90 backdrop-blur-xl overflow-y-auto animate-fade-in">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 lg:p-8 bg-black/90 backdrop-blur-xl overflow-y-auto animate-fade-in"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="project-modal-title"
+      onMouseDown={(event) => {
+        if (event.target === event.currentTarget) onClose();
+      }}
+    >
       
       <div className="relative w-full max-w-5xl bg-[#121216] border border-white/10 rounded-3xl overflow-hidden shadow-2xl my-8 max-h-[90vh] flex flex-col">
         
@@ -36,7 +59,7 @@ export default function ProjectModal({ project, onClose }) {
             <div className="font-mono text-xs text-[#9E9EA7] uppercase tracking-widest mb-2">
               {project.categoryName || "GRAPHIC DESIGN CATEGORY"}
             </div>
-            <h2 className="font-syne text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            <h2 id="project-modal-title" className="font-syne text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
               {project.title}
             </h2>
             <p className="mt-4 font-sans text-base sm:text-lg text-accent font-medium leading-relaxed">

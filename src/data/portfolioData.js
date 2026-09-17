@@ -12,7 +12,7 @@ export const personalInfo = {
     instagram: "#",
     github: "#"
   },
-  resumePdfUrl: "/assets/Alok_Pandey_Resume.pdf",
+  resumePdfUrl: "/assets/Alok_Pandey_Resume.html",
   bio: "Creative and detail-oriented Graphic Designer with hands-on experience creating YouTube thumbnails, social media creatives, channel branding, and digital content through personal and content projects. Skilled in visual communication, typography, layout and composition, branding, color theory, and audience-focused design. Passionate about taking raw concepts and shaping them into high-performing, unforgettable visual assets.",
   education: {
     institution: "ABES Engineering College, Ghaziabad, Uttar Pradesh",

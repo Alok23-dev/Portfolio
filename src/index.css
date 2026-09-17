@@ -9,6 +9,15 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
+  :focus-visible {
+    outline: 2px solid #E63946;
+    outline-offset: 3px;
+  }
+
+  section[id] {
+    scroll-margin-top: 6rem;
+  }
+
   h1, h2, h3, h4, .font-syne {
     font-family: 'Syne', sans-serif;
   }
@@ -53,4 +62,12 @@
   background-image: 
     linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
